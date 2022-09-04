@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="/css/estilo13.css">
+    
+</head>
+<body>
+
+    <section class="showcase">
+       <header>
+        <video src="/img/production ID_4861112.mp4" muted loop autoplay></video>
+       <img src="/img/livro-logo.png" class="logo">
+        <div class="toggle"></div>
+       </header> 
+
+       
+       <div class="overlay"></div>
+
+       <div class="texto">
+        <h2>Conheça nossa livraria</h2>
+        <h3>A leitura alimenta a alma</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim libero doloribus quidem doloremque placeat magni aliquid omnis facere deserunt a, sint quos! Asperiores tempora accusantium nobis ipsa necessitatibus reprehenderit corrupti.</p>
+        <a href="#">Ver Livros</a>
+       </div>
+
+       <ul class="redes">
+        <li><img class="social"src="/img/Face-logo.png"></li>
+        <li><img class="social"src="/img/insta-logo.png"></li>
+        <li><img class="social"src="/img/free-twitter-icon-99-thumb.png"></li>
+       </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li>Home</li>
+            <li>Livrarias perto de você</li>
+            <li>Promoções</li>
+            <li>Eventos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+    <script>
+    const menutoggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menutoggle.addEventListener('click', ()=>{
+        menutoggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+    })
+    </script>
+    </script>
+</body>
+</html>
